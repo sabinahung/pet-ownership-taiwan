@@ -36,5 +36,5 @@ And with the [pet registration data](https://www.pet.gov.tw/PetsMap/PetsMap.aspx
 1. Spend more time on the write up
 2. Get better at scraping 
 3. Regression analysis on stray dog and dog ownership
-4. **Find out why there was a significant increase in 2023 pet registration data**
+4. <ins>Find out why there was a significant increase in 2023 pet registration data</ins>
 
