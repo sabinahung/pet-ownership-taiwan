@@ -26,13 +26,15 @@ Cleaning the [yearly household pets estimate](https://data.coa.gov.tw/open_searc
 
 Second biggest challenge was the change of name in places. It also adds to the difficulty to compare same city/county across time. I later found out that the `cityID` column was consistent acorss geographical territory, that solved the difference-in-city-name problem. 
 
-Thankfully, like what Soma suggested, I moved on to 
+With yearly household pets estimate data, I removed all the counties that are not present throughout (they are the outlying islands) and sum all the household dog and cat estimates to get the national total of each year. 
 
+And with the [pet registration data](https://www.pet.gov.tw/PetsMap/PetsMap.aspx), it provided both registered total and the total of household who came for pet registration. I calculated the average number cats and dogs per household by city/county to get the top 5 lists.
 ## What I learned
 1. Don't get too hung up on one dataset!! Always have backup datasets or always be ready to look for other datasets!
-2. Risk management! Know your time limit, it's okay to copy-paste! (Is it? Ultimately I do wish to improve my scraping skills)
+2. Risk management! Know your time limit, it's okay to copy-paste! (Is it? I do wish to improve my scraping skills ultimately)
 ## What I wished to improve 
 1. Spend more time on the write up
 2. Get better at scraping 
-2. Regression analysis on stray dog and dog ownership
+3. Regression analysis on stray dog and dog ownership
+4. **Find out why there was a significant increase in 2023 pet registration data**
 
