@@ -1,13 +1,14 @@
 # Comparing dogs and cat ownerships in Taiwan
 
 ## Goal
-
-Dog-cat ownership growth
+1. Dog-cat ownership growth
 Whether dog ownership correlates with number of stray dogs
 Area chart of changes of pet ownership
 (Map of regional changes of pet ownership)
 
 ## Findings
+1. Cat popularity is on the rise but hasn't outnumbered household dogs
+2. Keelung registered the most cats in 2023
 
 ## Data collection process
 Data sources:
