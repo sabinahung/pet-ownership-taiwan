@@ -1,24 +1,24 @@
-city,registered,household,average_dog,English_x,English_y
-新北市,15230,10625,1.43,New Taipei City,New Taipei City
-臺北市,9855,7418,1.33,Taipei City,Taipei City
-臺中市,17786,12085,1.47,Taichung City,Taichung City
-臺南市,8910,5766,1.55,Tainan City,Tainan City
-高雄市,14515,7655,1.9,Kaohsiung City,Kaohsiung City
-桃園市,9441,7088,1.33,Taoyuan,Taoyuan
-宜蘭縣,2156,1433,1.5,Yilan,Yilan
-新竹縣,2532,1810,1.4,Hsinchu,Hsinchu
-苗栗縣,2399,1640,1.46,Miaoli,Miaoli
-彰化縣,7176,4343,1.65,Changhua,Changhua
-南投縣,4184,1594,2.62,Nantou,Nantou
-雲林縣,3846,2542,1.51,Yunlin,Yunlin
-嘉義縣,2229,1414,1.58,Chiayi,Chiayi
-屏東縣,3273,1979,1.65,Pingtung,Pingtung
-臺東縣,1619,1052,1.54,Taitung,Taitung
-花蓮縣,2185,1478,1.48,Hualien,Hualien
-澎湖縣,399,265,1.51,Penghu,Penghu
-基隆市,2543,1002,2.54,Keelung City,Keelung City
-新竹市,1556,1191,1.31,Hsinchu City,Hsinchu City
-嘉義市,881,640,1.38,Chiayi City,Chiayi City
-金門縣,577,417,1.38,Kinmen,Kinmen
-連江縣,56,47,1.19,Lienchiang,Lienchiang
-合計,113348,73484,1.54,,
+city,registered,household,English_x,average_cat
+新北市,15230,10625,New Taipei City,1.43
+臺北市,9855,7418,Taipei City,1.33
+臺中市,17786,12085,Taichung City,1.47
+臺南市,8910,5766,Tainan City,1.55
+高雄市,14515,7655,Kaohsiung City,1.9
+桃園市,9441,7088,Taoyuan,1.33
+宜蘭縣,2156,1433,Yilan,1.5
+新竹縣,2532,1810,Hsinchu,1.4
+苗栗縣,2399,1640,Miaoli,1.46
+彰化縣,7176,4343,Changhua,1.65
+南投縣,4184,1594,Nantou,2.62
+雲林縣,3846,2542,Yunlin,1.51
+嘉義縣,2229,1414,Chiayi,1.58
+屏東縣,3273,1979,Pingtung,1.65
+臺東縣,1619,1052,Taitung,1.54
+花蓮縣,2185,1478,Hualien,1.48
+澎湖縣,399,265,Penghu,1.51
+基隆市,2543,1002,Keelung City,2.54
+新竹市,1556,1191,Hsinchu City,1.31
+嘉義市,881,640,Chiayi City,1.38
+金門縣,577,417,Kinmen,1.38
+連江縣,56,47,Lienchiang,1.19
+合計,113348,73484,,1.54
