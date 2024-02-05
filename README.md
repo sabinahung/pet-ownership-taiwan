@@ -1,22 +1,28 @@
 # Comparing dogs and cat ownerships in Taiwan
 
 ## Goal
-1. Dog-cat ownership growth
-Whether dog ownership correlates with number of stray dogs
-Area chart of changes of pet ownership
-(Map of regional changes of pet ownership)
+I initally wanted to find out: 
+1. Dog-cat ownership growth by city/county
+2. Whether dog ownership correlates with number of stray dogs
+3. Line chart of changes of pet ownership
 
 ## Findings
 1. Cat popularity is on the rise but hasn't outnumbered household dogs
 2. Keelung registered the most cats in 2023
+3. Two counties showed up in both cat and dog top five lists
 
 ## Data collection process
-Data sources:
-年度犬貓統計表- 農業開放資料平臺（Household pets）
-動物收容統計表（Animal Adoption）
-寵物登記地圖
+I used two datasets to complete this project. 
+
+1. One from the [open data site](https://data.coa.gov.tw/open_search.aspx?id=ccezNvv4oYbO) maintained by Ministry of Agriculture in Taiwan. 
+2. Another from an [interactive map](https://www.pet.gov.tw/PetsMap/PetsMap.aspx) of the pet registration system.
+
+The data collection for the open data was simple. They've complied the data so it is retrievable with an API and also available in csv.
+
+
 
 ## Data analysis process
+
 
 ## What I learned
 
