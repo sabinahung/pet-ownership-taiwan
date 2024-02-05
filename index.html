@@ -3,8 +3,11 @@
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Page templates</title>
-    
+    <title>Has Taiwan become a cat state?</title>
+
+    <!-- favicon -->
+    <link rel="icon" href="https://icons8.com/icon/ZGYXhUYK9ciX/fat-cat">
+
     <!-- Google fonts -->
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -19,12 +22,12 @@
         }
 
         .content {
-            max-width: 640px;
+            max-width: 800px;
             margin: auto;
         }
 
         .header {
-            padding: 3em 0;
+            padding: 2em 0;
         }
 
         a {
@@ -40,7 +43,8 @@
         }
 
         figure {
-            margin: 0 0 1em 0;
+            margin: 0;
+            padding-bottom: 1.2em;
         }
 
         figcaption {
@@ -53,12 +57,16 @@
         h1 {
             font-family: 'Lora', Georgia, serif;
             font-weight: bold;
-            font-size: 3em;
-            line-height: 1.1;
+            font-size: 2.5em;
+            line-height: 1.5;
         }
 
         .subhead {
             font-family: 'Lora', Georgia, serif;
+            margin: 0;
+            font-size: 1.5em;
+
+
         }
 
         img {
@@ -68,7 +76,23 @@
         p {
             line-height: 1.6;
             margin: 0;
+            padding-bottom: 1.2em;
+        }
+
+        ol {
+            margin: 0;
             padding-bottom: 1em;
+            line-height: 1.6;
+        }
+
+        iframe {
+            padding-top: 1.5em;
+            padding-bottom: 2.5em;
+        }
+
+        code {
+            font-family: 'Courier New', monospace;
+            background: #fff880;
         }
 
         /* margin on mobile */
@@ -81,14 +105,58 @@
                 padding-right: 0.5em;
             }
         }
-
+        
+        .byline{
+            font-size: 1em;
+            color: #666;
+            margin: 0;
+            padding: 0;
+        }
     </style>
     </head>
   <body>
     <div class="content">
-        <h1>Page templates</h1>
-        <ul>
-            <li><a href="story.html">Basic story page</a></li>
-        </ul>
-    </body>
+        <div class="header">
+            <h1>Has Taiwan become a cat state?</h1>
+            <p class="subhead">An overview of the pet ownership data in Taiwan</p>
+            <p>By <a href="https://sabinahung.github.io/hi-im-sabina/">Sabina Hung</a> 🐈 🐈‍⬛ </p>
+        </div>
+
+        <p>Cats weren’t a popular choice of pets in Taiwan until recently. Although it is hard to pinpoint the reason for the rise of cats, the data from the <a href="https://animal.moa.gov.tw/Frontend/Know/PageTabList?TabID=31B05CB46007226417F0F5FB8A80096E#tab2">Ministry of Agriculture in Taiwan</a> shows that cat popularity has been on the rise in the past decade.</p>
+
+        <p>However, despite the increase, the total number of household dogs in Taiwan still outnumbered household cats as of 2021, according to the Ministry of Agriculture in Taiwan.</p>
+
+        <iframe title="While cat popularity is growing in Taiwan, household dogs still outnumbered household cats" aria-label="Grouped Columns" id="datawrapper-chart-AlLHT" src="https://datawrapper.dwcdn.net/AlLHT/5/" scrolling="no" frameborder="0" style="width: 0; min-width: 100% !important; border: none;" height="813" data-external="1"></iframe><script type="text/javascript">!function(){"use strict";window.addEventListener("message",(function(a){if(void 0!==a.data["datawrapper-height"]){var e=document.querySelectorAll("iframe");for(var t in a.data["datawrapper-height"])for(var r=0;r<e.length;r++)if(e[r].contentWindow===a.source){var i=a.data["datawrapper-height"][t]+"px";e[r].style.height=i}}}))}();
+        </script>
+
+        <p>Apart from the national estimate of household pets, the <a href="https://www.pet.gov.tw/PetsMap/PetsMap.aspx">pet registration data</a> in 2023 shows that Keelong topped as the city/county that owns the highest number of cats per household.</p>
+
+        <p>The top three cities/counties in 2023 with the highest number of cats per household are:</p>
+        <ol>
+            <li>Keelong: 8.41 cats per household</li>
+            <li>Nantou: 8.15 cats per household</li>
+            <li>Pintong: 6.28 cats per household</li>
+        </ol>
+
+        <iframe title="Nantou households registered the most dogs on average in 2023" aria-label="Map" id="datawrapper-chart-RyXZL" src="https://datawrapper.dwcdn.net/RyXZL/3/" scrolling="no" frameborder="0" style="width: 0; min-width: 100% !important; border: none;" height="964" data-external="1"></iframe><script type="text/javascript">!function(){"use strict";window.addEventListener("message",(function(a){if(void 0!==a.data["datawrapper-height"]){var e=document.querySelectorAll("iframe");for(var t in a.data["datawrapper-height"])for(var r=0;r<e.length;r++)if(e[r].contentWindow===a.source){var i=a.data["datawrapper-height"][t]+"px";e[r].style.height=i}}}))}();
+        </script>
+
+        <p>Surprisingly, we saw some overlaps between the top five cities/counties registered the most dogs and the most cats. Nantou and Pintung showed up on both top five lists.</p>
+
+        <iframe title="Top 5 cities/counties registered the most dogs in 2023" aria-label="Split Bars" id="datawrapper-chart-1BFO8" src="https://datawrapper.dwcdn.net/1BFO8/2/" scrolling="no" frameborder="0" style="width: 0; min-width: 100% !important; border: none;" height="233" data-external="1"></iframe><script type="text/javascript">!function(){"use strict";window.addEventListener("message",(function(a){if(void 0!==a.data["datawrapper-height"]){var e=document.querySelectorAll("iframe");for(var t in a.data["datawrapper-height"])for(var r=0;r<e.length;r++)if(e[r].contentWindow===a.source){var i=a.data["datawrapper-height"][t]+"px";e[r].style.height=i}}}))}();
+        </script>
+
+        <iframe title="Top 5 cities/counties registered the most cats in 2023" aria-label="Split Bars" id="datawrapper-chart-RAZq1" src="https://datawrapper.dwcdn.net/RAZq1/2/" scrolling="no" frameborder="0" style="width: 0; min-width: 100% !important; border: none;" height="260" data-external="1"></iframe><script type="text/javascript">!function(){"use strict";window.addEventListener("message",(function(a){if(void 0!==a.data["datawrapper-height"]){var e=document.querySelectorAll("iframe");for(var t in a.data["datawrapper-height"])for(var r=0;r<e.length;r++)if(e[r].contentWindow===a.source){var i=a.data["datawrapper-height"][t]+"px";e[r].style.height=i}}}))}();
+        </script>     
+        
+        <p>Perhaps it's no longer an either-or between cats and dogs but a mix of both?</p>
+
+    </div>
+
+    <div class="footer">
+        <div class="content">
+            <p>You can find my code and data <a href="https://github.com/sabinahung/pet-ownership-taiwan.git">here</a>. 
+        </div>
+    </div>
+</body>
 </html>
