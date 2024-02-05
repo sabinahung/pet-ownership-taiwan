@@ -1,6 +1,6 @@
 # Comparing dogs and cat ownerships in Taiwan
 
-#### Check out my project over [here](https://sabinahung.github.io/pet-ownership-taiwan/)!
+### Check out my project over [here](https://sabinahung.github.io/pet-ownership-taiwan/)!
 
 ## Goal
 I initally wanted to find out: 
