@@ -2,7 +2,7 @@
 
 ## Goal
 I initally wanted to find out: 
-1. Dog-cat ownership growth by city/county
+1. Dog-cat ownership change by city/county over the years
 2. Whether dog ownership correlates with number of stray dogs
 3. Line chart of changes of pet ownership
 
@@ -19,8 +19,9 @@ I used two datasets to complete this project.
 
 The data collection for the open data was simple. They've complied the data so it is retrievable with an API and also available in csv.
 
+The data collection of the interactive map was what took me the longest working on this project. I was accessing the data with Playwright and tried retrieving the table with `pd.read_html` and BeautifulSoup, but the table contains .many `</br>` and whitespaces which makes scraping difficult. At one point I was able to get the table into pandas dataframe, but it didn't come out in the format I prefered. All columns was squeezed into one cell. So I resorted to the most *straightforward* method -- copy and pasting to excel :)
 
-
+I am glad
 ## Data analysis process
 
 
